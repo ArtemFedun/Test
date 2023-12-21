@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* Define three rows with equal height */
+    grid-template-columns: repeat(5, 1fr); /* Define five columns with equal width */
+    grid-template-areas:
+      'cube1 cube2 cube3 cube4 cube4'
+      'cube5 cube6 cube3 cube7 cube8'
+      'cube5 cube9 cube10 cube10 cube8';
+}
+
+.cube1{
+    background-color: yellow;
+    grid-area: cube1;
+}
+.cube2{
+    background-color: aqua;
+    grid-area: cube2;
+}
+.cube3{
+    background-color: azure;
+    grid-area: cube3;
+}
+.cube4{
+    background-color: cadetblue;
+    grid-area: cube4;
+}
+.cube5{
+    background-color: antiquewhite;
+    grid-area: cube5;
+}
+.cube6{
+    background-color: blueviolet;
+    grid-area: cube6;
+}
+.cube7{
+    background-color: crimson;
+    grid-area: cube7;
+}
+.cube8{
+    background-color: coral;
+    grid-area: cube8;
+}
+.cube9{
+    background-color: violet;
+    grid-area: cube9;
+}
+.cube10{
+    background-color: cyan;
+    grid-area: cube10;
+}
